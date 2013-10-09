@@ -2,6 +2,10 @@ box: wercker/dart
 build:
   steps:
     - script:
+        name: environment
+        code: |
+            echo "PATH: $PATH"
+    - script:
         name: build
         code: |
           pub install
