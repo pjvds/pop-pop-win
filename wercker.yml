@@ -1,0 +1,11 @@
+box: wercker/dart
+build:
+  steps:
+    - script:
+        name: build
+        code: |
+          pub install
+    - script:
+        name: test
+        code: |
+          dart --checked tool/hop_runner.dart test
