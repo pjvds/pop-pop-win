@@ -5,7 +5,7 @@ An implementation of
 <a href="http://en.wikipedia.org/wiki/Minesweeper_(video_game)">Minesweeper</a>
 in [Dart](http://www.dartlang.org).
 
-[![](https://drone.io/kevmoo/pop-pop-win/status.png)](https://drone.io/kevmoo/pop-pop-win/latest)
+[![wercker status](https://app.wercker.com/status/a4bb9e6ebb162598e26ce5aff19243e3/m "wercker status")](https://app.wercker.com/project/bykey/a4bb9e6ebb162598e26ce5aff19243e3)
 
 ## Play
 
