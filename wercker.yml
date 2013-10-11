@@ -13,9 +13,3 @@ build:
         name: test
         code: |
           dart --checked tool/hop_runner.dart test
-    - script:
-        name: print cache
-        code: |
-          ls -al $HOME
-          ls -al $WERCKER_CACHE_DIR
-          #ls -al $WERCKER_CACHE_DIR/.pub-cache
