@@ -16,4 +16,5 @@ build:
     - script:
         name: print cache
         code: |
-          ls -a $WERCKER_CACHE_DIR
+          ls -al $WERCKER_CACHE_DIR
+          ls -al $WERCKER_CACHE_DIR/.pub-cache
